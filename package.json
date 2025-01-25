@@ -1,0 +1,38 @@
+{
+  "name": "@lenojoseph/leno.js",
+  "version": "1.0.0",
+  "description": "A easy pagination class created to handle multiple embeds in a single command, this play a vital role for all developer who are inneed of pagination",
+  "keywords": [
+    "discord-pagination",
+    "pagination",
+    "embed-pages",
+    "embed-page",
+    "lenopagination",
+    "lenopackage",
+    "leno-embed-pagination"
+  ],
+  "homepage": "https://github.com/lenojoseph/leno.js#readme",
+  "bugs": {
+    "url": "https://github.com/lenojoseph/leno.js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lenojoseph/leno.js.git"
+  },
+  "license": "ISC",
+  "author": "J.M.Anna Joseph",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ping.js",
+    "build": "node scripts/build.js",
+    "postversion": "git push && git push --tags"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com",
+    "registry1": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "discord.js": "^14.17.3"
+  }
+}
