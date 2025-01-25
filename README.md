@@ -6,9 +6,9 @@
     <br />
     <p>
         <a href="https://discord.gg/PNpVAp2vwP"><img src="https://img.shields.io/discord/1298533911869128725?logo=Discord&logoColor=white&color=5865F2" alt="Discord server" /></a>
-        <a href="https://www.npmjs.com/package/lenopackages"><img src="https://img.shields.io/npm/dw/lenopackages?logo=npm&label=Downloads" alt="npm version" /></a>
-        <a href="https://www.npmjs.com/package/lenopackages"><img src="https://img.shields.io/npm/v/lenopackages?logo=npm" alt="npm version" /></a>
-        <a href="https://github.com/discordjs/lenopackages/actions"><img src="https://img.shields.io/github/actions/workflow/status/lenojoseph/lenopackages/build.yml?logo=Github&label=Tests" alt="Tests status" /></a>
+        <a href="https://www.npmjs.com/package/leno.js"><img src="https://img.shields.io/npm/dw/leno.js?logo=npm&label=Downloads" alt="npm version" /></a>
+        <a href="https://www.npmjs.com/package/leno.js"><img src="https://img.shields.io/npm/v/leno.js?logo=npm" alt="npm version" /></a>
+        <a href="https://github.com/discordjs/leno.js/actions"><img src="https://img.shields.io/github/actions/workflow/status/lenojoseph/leno.js/build.yml?logo=Github&label=Tests" alt="Tests status" /></a>
     </p>
 </div>
 
@@ -21,7 +21,7 @@ A flexible and feature-rich utility for handling paginated content in Discord bo
 <div align="center">
   <br />
     <p>
-        <a href="#"><img src="https://img.shields.io/npm/last-update/lenopackages?label=Last%20Update" alt="last update" /></a>
+        <a href="#"><img src="https://img.shields.io/npm/last-update/leno.js?label=Last%20Update" alt="last update" /></a>
         <a href="#"><img src="https://img.shields.io/maintenance/yes/2025?label=Maintained" alt="maintained" /></a>
     </p>
   <br />
@@ -41,20 +41,20 @@ A flexible and feature-rich utility for handling paginated content in Discord bo
 
 ## Installation
 
-Ensure you have `discord.js` & `lenopackages` installed:
+Ensure you have `discord.js` & `leno.js` installed:
 
 ```bash
 npm install discord.js
 ```
 
 ```bash
-npm install lenopackages
+npm install leno.js
 ```
 
 Include the package in your project:
 
 ```javascript
-const { CustomEmbed, handlePagination } = require('lenopackages');
+const { CustomEmbed, handlePagination } = require('leno.js');
 ```
 
 ---
@@ -111,7 +111,7 @@ You can use this package to build paginated embeds and handle interactions in yo
 ### Custom Embed
 
 ```javascript
-const { CustomEmbed } = require('lenopackages');
+const { CustomEmbed } = require('leno.js');
 
 const customEmbed = new CustomEmbed()
   .setTitle('Sample Title')
@@ -163,7 +163,7 @@ Define a slash command and use `handlePagination` within its handler.
 
 ```javascript
 const { SlashCommandBuilder } = require('discord.js');
-const { CustomEmbed, handlePagination } = require('lenopackages');
+const { CustomEmbed, handlePagination } = require('leno.js');
 
 const paginateCommand = {
     data: new SlashCommandBuilder()
@@ -203,7 +203,7 @@ client.on('interactionCreate', async (interaction) => {
 
 ```javascript
 const { Client, GatewayIntentBits,SlashCommandBuilder } = require('discord.js');
-const { CustomEmbed, handlePagination } = require('lenopackages');
+const { CustomEmbed, handlePagination } = require('leno.js');
 
 const client = new Client({
   intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent],
