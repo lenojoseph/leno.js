@@ -1,6 +1,6 @@
 {
   "name": "@lenojoseph/leno.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A easy pagination class created to handle multiple embeds in a single command, this play a vital role for all developer who are inneed of pagination",
   "keywords": [
     "discord-pagination",
