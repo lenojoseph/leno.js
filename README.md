@@ -287,6 +287,8 @@ This package is proprietary software. All rights reserved. Unauthorized copying,
 
 We welcome contributions! Whether it's fixing bugs, adding features, or improving documentation, feel free to open a pull request or issue.
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/P5P6JLCNY)
+
 ---
 
 ## Support
